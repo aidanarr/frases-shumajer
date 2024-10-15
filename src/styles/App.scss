@@ -129,9 +129,14 @@ $titles: "Lily Script One", system-ui;
       z-index: 1;
 
       @media (width <= 600px) {
-            font-size: 2.2rem;
+            font-size: 2.6rem;
             padding-bottom: 10px;
       }
+
+      @media (width <= 320px) {
+         font-size: 2.3rem;
+         padding-bottom: 10px;
+   }
 
       &:after {
          z-index: -1;
